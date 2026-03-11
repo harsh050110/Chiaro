@@ -20,7 +20,7 @@ export default function Hero() {
       <img
         src={pasta}
         alt="pasta"
-        className="absolute right-[-80px] bottom-16 w-[380px] animate-float drop-shadow-xl"
+        className="absolute right-[-140px] bottom-16 w-[380px] animate-float drop-shadow-xl"
       />
 
       {/* CENTER CONTENT */}
