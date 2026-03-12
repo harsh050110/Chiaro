@@ -23,10 +23,15 @@ export default function Reservation() {
             special celebration with friends, we invite you to join us for a
             memorable Italian dining experience.
           </p>
-
-          <button className="mt-8 bg-green-600 text-white px-8 py-3 rounded-full font-semibold hover:scale-105 transition">
-            Reserve a Table
-          </button>
+          <a
+  href="https://www.swiggy.com/restaurants/chiaro-pizzeria-bistro-and-coffee-jagatpura-jaipur-1320012/dineout"
+  target="_blank"
+  rel="noopener noreferrer"
+>
+  <button className="mt-8 bg-green-600 text-white px-8 py-3 rounded-full font-semibold hover:scale-105 transition">
+    Reserve a Table
+  </button>
+</a>
 
         </div>
 

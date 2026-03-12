@@ -1,3 +1,4 @@
+import { FaInstagram, FaFacebookF, FaTwitter, FaYoutube } from "react-icons/fa";
 export default function Footer() {
   return (
     <footer className="bg-black text-white py-16 ">
@@ -23,9 +24,9 @@ export default function Footer() {
             </h3>
 
             <p className="text-gray-300 text-sm leading-relaxed">
-              96 East Central Park Road,
+              Shop B25, SR Plaza, Green Park Scheme, Rainbow Heights Rd,
               <br />
-              New York, USA
+              Jagatpura, Jaipur, Rajasthan 302017
             </p>
           </div>
 
@@ -75,25 +76,29 @@ export default function Footer() {
 </p>
 
           {/* SOCIAL ICONS */}
-          <div className="flex gap-4 mt-4 md:mt-0">
+          <div className="flex gap-4">
 
-            <div className="w-10 h-10 flex items-center justify-center border border-white/20 rounded-full hover:bg-yellow-400 hover:text-black transition cursor-pointer">
-              f
-            </div>
+  <a className="w-10 h-10 flex items-center justify-center border border-white/20 rounded-full hover:bg-blue-500 hover:text-black transition cursor-pointer">
+    <FaFacebookF />
+  </a>
 
-            <div className="w-10 h-10 flex items-center justify-center border border-white/20 rounded-full hover:bg-yellow-400 hover:text-black transition cursor-pointer">
-              t
-            </div>
+  <a className="w-10 h-10 flex items-center justify-center border border-white/20 rounded-full hover:bg-blue-400 hover:text-black transition cursor-pointer">
+    <FaTwitter />
+  </a>
+  <a
+  href="https://www.instagram.com/chiaro.pizza/?hl=en"
+  target="_blank"
+  rel="noopener noreferrer"
+  className="w-10 h-10 flex items-center justify-center border border-white/60 rounded-full hover:bg-purple-600 hover:text-black transition cursor-pointer"
+>
+  <FaInstagram />
+</a>
 
-            <div className="w-10 h-10 flex items-center justify-center border border-white/20 rounded-full hover:bg-yellow-400 hover:text-black transition cursor-pointer">
-              in
-            </div>
+  <a className="w-10 h-10 flex items-center justify-center border border-white/20 rounded-full hover:bg-red-600 hover:text-black transition cursor-pointer">
+    <FaYoutube />
+  </a>
 
-            <div className="w-10 h-10 flex items-center justify-center border border-white/20 rounded-full hover:bg-yellow-400 hover:text-black transition cursor-pointer">
-              ▶
-            </div>
-
-          </div>
+</div>
 
         </div>
 
